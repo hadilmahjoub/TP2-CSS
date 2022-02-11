@@ -1,0 +1,138 @@
+#top {
+    position: relative;
+    margin-bottom: -4px;
+    width: 100%;
+    top: 0px;
+    right: 0px;
+	left: 0px;
+}
+
+#flash_image{
+	margin-top: -5px;
+	width:100%;
+}
+
+#flash_img img{
+	width:100%;
+}
+
+body{
+	margin: 0px;
+}
+
+body *{
+	padding:0px;
+	border:0px;
+	margin: 0px;
+}
+
+div#content{
+	position:relative;
+	display: table;
+	margin: 0 auto;
+	width:60%;
+}
+
+nav ul{
+	margin-top: -5px;
+	margin-bottom: 0px;
+	display:table;
+	position: relative;
+	left:0px;
+	right:0px;
+	width:100%;
+}
+
+ul li a{
+	display: block;
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: none;
+	color:white;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+ul li{
+	display: table-cell; 
+	background:#8B332A;
+	width:20%;
+}
+
+ul li:hover{
+	background: #000000;
+	/* pour avoir l'image rings.png on hover*/
+	background-image: url("assets/rings.png");
+	background-repeat: no-repeat;
+	background-position:right;
+}
+
+#logo{
+	margin-top: 0px;
+	margin-left:0px;
+	position: absolute;
+	top:0px;
+	left:0px;	
+}
+
+table{
+	margin-top: 50px;
+	width: 100%;
+}
+
+h1{
+	color:#8B332A;
+	padding-top: 20px;
+}
+
+p#lorem{
+	margin-top:10px;
+	margin-bottom:30px;
+	font-family:Helvetica;
+}
+
+td{
+	position: relative;
+	padding: 0px 10px ;
+}
+
+td a{
+	font-family:Arial;
+	color:#8B332A;
+	font-weight:600;
+	text-decoration:none;
+}
+
+#img6{
+	float: right;
+	position: absolute;
+	bottom: 13px;
+	right: 0px;
+}
+
+tr#row3 td{
+	padding-top: 50px;	
+}
+
+div#content>p{
+	font-family:Helvetica;
+	font-weight:bold;
+	display:table;
+	padding-top:30px;
+	padding-bottom:10px;
+	margin: auto;
+}
+
+.titre{
+	font-size: 24px;
+	padding-top: 5px;
+	padding-bottom: 50px;
+}
+
+#botim {
+    position: relative;
+    bottom: 0px;
+    right: 0px;
+	left: 0px;
+	width: 100%;
+}
